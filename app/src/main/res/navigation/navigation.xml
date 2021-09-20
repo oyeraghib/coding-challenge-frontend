@@ -12,9 +12,9 @@
       tools:layout="@layout/fragment_home" />
   <fragment
       android:id="@+id/repositoriesFragment"
-      android:name="com.example.gitappproject.RepositoriesFragment"
+      android:name="com.example.gitappproject.UserFragment"
       android:label="Repositories Fragment"
-      tools:layout="@layout/fragment_repositories" />
+      tools:layout="@layout/fragment_users" />
   <fragment
       android:id="@+id/repositoryFragment"
       android:name="com.example.gitappproject.RepositoryFragment"
