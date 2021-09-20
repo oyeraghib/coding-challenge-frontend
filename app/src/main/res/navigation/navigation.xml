@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+  <fragment
+      android:id="@+id/homeFragment"
+      android:name="com.example.gitappproject.HomeFragment"
+      android:label="Home Fragment"
+      tools:layout="@layout/fragment_home" />
+  <fragment
+      android:id="@+id/repositoriesFragment"
+      android:name="com.example.gitappproject.RepositoriesFragment"
+      android:label="Repositories Fragment"
+      tools:layout="@layout/fragment_repositories" />
+  <fragment
+      android:id="@+id/repositoryFragment"
+      android:name="com.example.gitappproject.RepositoryFragment"
+      android:label="Repository Fragment"
+      tools:layout="@layout/fragment_repository" />
+</navigation>
